@@ -58,7 +58,7 @@ namespace SlaveApp.Services
             }
             catch (Exception)
             {
-                // Obsługa wyjątków (można dodać logowanie błędów)
+
             }
         }
 

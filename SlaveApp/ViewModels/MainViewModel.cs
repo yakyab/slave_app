@@ -25,6 +25,7 @@ namespace SlaveApp.ViewModels
         // Właściwość zwracająca aktualną ścieżkę zapisu
         public string CurrentSavePath => $"Save Path: {_saveFolderPath}";
 
+
         // Właściwość odpowiadająca za IP Mastera z walidacją
         public string MasterIp
         {
@@ -130,6 +131,7 @@ namespace SlaveApp.ViewModels
                 OnPropertyChanged(nameof(IsIpEditable));
                 OnPropertyChanged(nameof(IsPortEditable));
                 SaveConfig();
+
             }
             catch (Exception ex)
             {

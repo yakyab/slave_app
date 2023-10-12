@@ -8,9 +8,8 @@ namespace SlaveApp
         // Konstruktor głównego okna
         public MainWindow()
         {
-            InitializeComponent();
-            // Ustawienie DataContext na nową instancję MainViewModel
-            DataContext = new MainViewModel();
+            InitializeComponent();  // Inicjalizacja komponentów interfejsu użytkownika zdefiniowanych w XAML
+            DataContext = new MainViewModel();  // Ustawienie kontekstu danych na nową instancję MainViewModel
         }
     }
 }
